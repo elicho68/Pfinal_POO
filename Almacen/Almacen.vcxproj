@@ -135,20 +135,39 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Clientes.cpp" />
+    <ClCompile Include="Compras.cpp" />
+    <ClCompile Include="Comprasdetalle.cpp" />
+    <ClCompile Include="CrudCompras.cpp" />
     <ClCompile Include="ConexionDB.cpp" />
+    <ClCompile Include="CrudClientes.cpp" />
+    <ClCompile Include="CrudEmple.cpp" />
     <ClCompile Include="CrudMarcas.cpp" />
     <ClCompile Include="CrudProductos.cpp" />
     <ClCompile Include="CrudProvee.cpp" />
+    <ClCompile Include="CrudPuestos.cpp" />
+    <ClCompile Include="CrudVentas.cpp" />
+    <ClCompile Include="Empleados.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Marcas.cpp" />
     <ClCompile Include="Productos.cpp" />
     <ClCompile Include="Proveedores.cpp" />
+    <ClCompile Include="ValidadorNIT.cpp" />
+    <ClCompile Include="Ventas.cpp" />
+    <ClCompile Include="VentasDetalle.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Clientes.h" />
+    <ClInclude Include="Compras.h" />
+    <ClInclude Include="Comprasdetalle.h" />
     <ClInclude Include="ConexionDB.h" />
+    <ClInclude Include="Empleados.h" />
     <ClInclude Include="Marcas.h" />
     <ClInclude Include="Productos.h" />
     <ClInclude Include="Proveedores.h" />
+    <ClInclude Include="Puestos.h" />
+    <ClInclude Include="ValidadorNIT.h" />
+    <ClInclude Include="Ventas.h" />
+    <ClInclude Include="VentasDetalle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

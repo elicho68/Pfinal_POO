@@ -91,6 +91,7 @@ void borrarProducto() {
 void productos() {
     int opcion;
     do {
+        system("cls");
         mostrarMenuProductos();
         cin >> opcion;
         cin.ignore();

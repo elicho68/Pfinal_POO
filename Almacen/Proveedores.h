@@ -6,6 +6,51 @@
 
 using namespace std;
 
+class Proveedores
+{
+private:
+	int idProveedor = 0;
+	int telefono = 0;
+	string proveedor, nit, direccion;
+
+public:
+	Proveedores() {}
+	Proveedores(int idPro, string pro, string n, string dir, int tel) {
+		idProveedor = idPro;
+		proveedor = pro;
+		nit = n;
+		direccion = dir;
+		telefono = tel;
+	}
+
+	void setIdProveedor(int idPro);
+	void setProveedor(string pro);
+	void setNit(string n);
+	void setDireccion(string dir);
+	void setTelefono(int tel);
+
+	int getIdProveedor();
+	string getProveedor();
+	string getNit();
+	string getDireccion();
+	int getTelefono();
+
+	void crear();
+	void leer();
+	void actualizar();
+	void borrar();
+	bool buscar(int id);
+};
+
+/*
+#pragma once
+#include <mysql.h>
+#include <iostream>
+#include "ConexionDB.h"
+#include <string>
+
+using namespace std;
+
 
 class Proveedores
 {
@@ -153,3 +198,4 @@ void Proveedores::borrar() {
 	}
 	cn.cerrar_conexion();
 }
+*/
